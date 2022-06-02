@@ -22,6 +22,10 @@ function App() {
           <CatalogoSimples />
           <Footer />
         </Route>
+        <Route path="/tatuadores">
+          <Header />
+          <Footer />
+        </Route>
     </BrowserRouter>
   )
 }
