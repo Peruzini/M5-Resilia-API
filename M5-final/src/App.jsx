@@ -9,7 +9,7 @@ import Catalogo from './Pages/Catalogo/Catalogo';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import NovoItem from './Components/NovoItem/NovoItem';
-
+import Tatuadores from './Pages/Tatuadores/Tatuadores';
 function App() {
   return (
     <BrowserRouter>
@@ -24,7 +24,7 @@ function App() {
           <NovoItem />
         </Route>
         <Route path="/tatuadores">
-          <Catalogo />
+          <Tatuadores />
         </Route>
         <Footer />
     </BrowserRouter>
