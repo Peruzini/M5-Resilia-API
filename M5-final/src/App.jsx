@@ -6,9 +6,9 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import CatalogoSimples from './Pages/CatalogoSimples/CatalogoSimples';
+import Tatuadores from './Pages/Tatuadores/Tatuadores';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +24,7 @@ function App() {
         </Route>
         <Route path="/tatuadores">
           <Header />
+          <Tatuadores />
           <Footer />
         </Route>
     </BrowserRouter>
