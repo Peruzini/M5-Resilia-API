@@ -23,6 +23,9 @@ function App() {
         <Route path="/cadastro">
           <NovoItem />
         </Route>
+        <Route path="/tatuadores">
+          <Catalogo />
+        </Route>
         <Footer />
     </BrowserRouter>
   )
