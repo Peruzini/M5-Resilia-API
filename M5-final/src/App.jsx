@@ -15,29 +15,7 @@ import NovoItem from './Components/NovoItem/NovoItem';
 
 import Acessorios from './Pages/Galeria/Galeria';
 
-function App() {
-  return (
-    <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
 
-        <Route path="/catalogo">
-          <Catalogo />
-        </Route>
-
-        <Route path="/acessorios">
-          <Acessorios />
-        </Route>
-
-        <Route path="/cadastro">
-          <NovoItem />
-        </Route>
-      </Switch>
-      <Footer />
-    </Router>
 
 function App() {
   return (
@@ -48,6 +26,9 @@ function App() {
       </Route>
       <Route path="/catalogo">
         <Catalogo />
+        <Route path="/acessorios">
+          <Acessorios />
+        </Route>
       </Route>
       <Route path="/cadastro">
         <NovoItem />
